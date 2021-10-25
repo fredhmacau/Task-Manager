@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities{
+    @variants responsive{
+        .h-banner{
+            height:560px;
+        }
+        .w-500{
+            width:600px;
+        }
+        
+    }
+}

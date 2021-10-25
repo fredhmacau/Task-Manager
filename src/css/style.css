@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2? family = Asap & display = swap');
+
+.hero{
+    background-color:#2E2938;
+}
+.menu_color{
+    color:#FFFFFF;
+}
+.bgcolor_menu{
+    background-color:#B4ACF9;
+}
+.navbar-collapse{
+    display: none;
+}
+
+.banner-hero-color{
+    color:#949399;
+}
+
+.max-h-600{
+    max-height:"500px";
+}
+
+.color-purple{
+    color:#B4ACF9;
+}
+
+@media (min-width: 768px) {
+    .h-banner {
+        height: 460px;
+    }
+}
+
+
+
+.customize{
+  all:unset;
+  position:relative;
+  display: inline-block;
+  border: 2px solid #b4acf9;
+  width: 2rem;
+  height: 2rem;
+  background: #363041;
+  cursor:pointer;
+  border-radius: 0.5rem;
+}
+
+.customize:checked{
+  border: dashed 1px transparent;
+}
+
+.customize:checked::after{
+  content:"";
+  position:absolute;
+  width:12px;
+  height:12px;
+  left: calc(50% - 6px);
+  top: calc(50% - 6px);
+  border-radius:50%;
+}
+.customize.blue:checked{
+  background: #363041; 
+ 
+}
+.customize.blue:checked::after{
+  background: #b4acf9;
+ 
+}
